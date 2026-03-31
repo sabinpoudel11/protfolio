@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sabin Poudel | Full Stack Developer & Automation Engineer</title>
+
+    <!-- SEO Optimization -->
+    <meta name="description"
+        content="Experience the cinematic digital portfolio of Sabin Poudel, a Full Stack Developer and Automation Engineer specializing in building robust systems and interactive webs.">
+    <meta name="keywords"
+        content="Sabin Poudel, Full Stack Developer, Automation Engineer, React, Node.js, Google Apps Script, Portfolio">
+    <meta name="author" content="Sabin Poudel">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://sabinpoudel.com">
+
+    <!-- Open Graph / Social Media -->
+    <meta property="og:title" content="Sabin Poudel | Systems Engineer">
+    <meta property="og:description"
+        content="Building systems that work while you sleep. Explore my interactive portfolio.">
+    <meta property="og:image" content="assets/og-image.jpg">
+    <meta property="og:url" content="https://sabinpoudel.com">
+    <meta property="og:type" content="website">
+
+    <!-- Twitter Cards -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Sabin Poudel | Full Stack Developer & Analyst">
+    <meta name="twitter:description"
+        content="I am a BCA student and developer focused on efficient, automated digital workflows.">
+
+    <!-- Structured Data (JSON-LD) for Search Engines -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Sabin Poudel",
+      "url": "https://sabinpoudel.com.np",
+      "jobTitle": "Full Stack Developer",
+      "description": "BCA student and Full Stack Developer passionate about automating workflows and building scalable web applications.",
+      "sameAs": [
+        "https://github.com/sabinpoudel",
+        "https://linkedin.com/in/sabinpoudel"
+      ]
+    }
+    </script>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Icons (Phosphor Icons) -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/components.css">
+</head>
+
+<body class="dark-mode">
+    <!-- Custom Cursor -->
+    <div class="cursor-glow"></div>
+
+    <!-- ENTRY EXPERIENCE -->
+    <section id="entry-experience" class="entry-screen">
+        <canvas id="galaxy-canvas"></canvas>
+        <div class="entry-content">
+            <h1 class="entry-name glitch" data-text="Sabin Poudel">Sabin Poudel</h1>
+            <div class="loading-line">
+                <div class="loading-progress"></div>
+            </div>
+            <p class="loading-status">Loading...</p>
+        </div>
+    </section>
+
+    <!-- MAIN APPLICATION -->
+    <main id="main-app" class="hidden">
+
+        <!-- Navigation -->
+        <header class="glass-nav">
+            <div class="container nav-container">
+                <a href="#hero" class="nav-logo">SP.</a>
+                <nav class="nav-links">
+                    <a href="#about" class="nav-link">About</a>
+                    <a href="#skills" class="nav-link">Skills</a>
+                    <a href="#projects" class="nav-link">Projects</a>
+                    <a href="#experience" class="nav-link">Experience</a>
+                </nav>
+                <div class="nav-right">
+                    <button class="theme-toggle" id="theme-btn" aria-label="Toggle Dark Mode">
+                        <i class="ph ph-sun"></i>
+                    </button>
+                    <a href="#contact" class="btn-primary small nav-cta">Let's Talk</a>
+                    <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Open Menu">
+                        <i class="ph ph-list"></i>
+                    </button>
+                </div>
+            </div>
+            <!-- Mobile Menu Tray -->
+            <div class="mobile-tray" id="mobile-tray">
+                <nav class="mobile-nav-links">
+                    <a href="#about" class="mobile-nav-link">About</a>
+                    <a href="#skills" class="mobile-nav-link">Skills</a>
+                    <a href="#projects" class="mobile-nav-link">Projects</a>
+                    <a href="#experience" class="mobile-nav-link">Experience</a>
+                    <a href="#contact" class="mobile-nav-link">Contact</a>
+                </nav>
+            </div>
+        </header>
+
+        <!-- HERO SECTION -->
+        <section id="hero" class="hero-section">
+            <div class="hero-bg">
+                <div class="gradient-sphere sphere-one"></div>
+                <div class="gradient-sphere sphere-two"></div>
+                <div class="particles"></div>
+            </div>
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <p class="hero-greeting">Hello, I'm Sabin Poudel</p>
+                    <h2 class="hero-title">
+                        <span id="typing-text"></span><span class="cursor">|</span>
+                    </h2>
+                    <p class="hero-subtitle">Passionate about learning new digital tools and exploring practical IT
+                        solutions.</p>
+                    <div class="hero-actions">
+                        <a href="#projects" class="btn-primary">View My Work</a>
+                        <a href="#contact" class="btn-secondary">Contact Me</a>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="glass-card hero-card">
+                        <div class="profile-container">
+                            <!-- EDIT THIS: Replace the 'src' link with your own photo path (e.g., assets/my_photo.jpg) -->
+                            <img src="https://images.unsplash.com/photo-1549692520-acc6669e2f0c?q=80&w=800&auto=format&fit=crop" alt="Sabin Poudel Profile" class="profile-img">
+                        </div>
+                        <div class="card-glow"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ABOUT SECTION -->
+        <section id="about" class="about-section pt-section">
+            <div class="container">
+                <div class="story-container">
+                    <div class="story-block" id="story-1">
+                        <h3 class="section-heading">Who I Am</h3>
+                        <p class="story-text">I'm a Bachelor of Computer Applications (BCA) student with a strong
+                            interest in technology, innovation, and problem-solving. I am passionate about learning new
+                            digital tools and exploring practical IT solutions.</p>
+                    </div>
+                    <div class="story-block" id="story-2">
+                        <h3 class="section-heading">Education</h3>
+                        <p class="story-text">Currently pursuing my BCA at Sagarmatha College of Science and Technology.
+                            My academic journey has built a strong foundation, backed by consistent high honors
+                            throughout my primary and secondary schooling.</p>
+                    </div>
+                    <div class="story-block" id="story-3">
+                        <h3 class="section-heading">My Approach</h3>
+                        <p class="story-text">I thrive on teamwork and collaboration, bringing strong communication
+                            skills to every project. Whether it's translating complex STEM concepts or managing content,
+                            I focus on executing with accuracy and professionalism.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SKILLS SECTION -->
+        <section id="skills" class="skills-section pt-section pb-section">
+            <div class="container">
+                <header class="section-header text-center pb-8">
+                    <h2 class="section-title">The Tech Universe</h2>
+                    <p class="section-subtitle">A collection of powerful tools shaping high-performance digital
+                        experiences.</p>
+                </header>
+
+                <div class="skills-galaxy-container">
+                    <div class="galaxy-center">
+                        <div class="core-skill-glow"></div>
+                        <p class="core-skill">Full Stack<br>Developer</p>
+                    </div>
+                    <div class="orbit-path" id="orbit-inner"></div>
+                    <div class="orbit-path" id="orbit-outer"></div>
+
+                    <!-- Nodes injected via JS for positioning -->
+                    <div class="skills-nodes-container" id="skills-nodes">
+                        <!-- Dynamic Skills Loading State -->
+                        <div id="skills-loader" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center; width: 100%;">
+                            <div class="btn-loader" style="margin: 0 auto; border-color: var(--accent-primary); width: 40px; height: 40px; border-top-color: transparent; border-radius: 50%; border-style: solid; border-width: 3px; animation: spin 1s linear infinite;"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="skill-tooltip" class="glass-tooltip hidden">
+                    <h4 id="tooltip-title">Skill</h4>
+                    <p id="tooltip-desc">Description</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- PROJECTS SECTION -->
+        <section id="projects" class="projects-section pt-section pb-section">
+            <div class="container">
+                <header class="section-header">
+                    <h2 class="section-title">Product Showcases</h2>
+                    <p class="section-subtitle">Real-world problems solved with elegant architecture.</p>
+                </header>
+
+                <div class="project-grid" id="dynamic-projects-grid">
+                    <!-- Dynamic Projects Loading State -->
+                    <div id="projects-loader" style="text-align: center; width: 100%; padding: 4rem 0;">
+                        <div class="btn-loader" style="margin: 0 auto; border-color: var(--accent-primary); width: 40px; height: 40px; border-top-color: transparent; border-radius: 50%; border-style: solid; border-width: 3px; animation: spin 1s linear infinite;"></div>
+                        <p style="margin-top: 1rem; color: var(--text-secondary); letter-spacing: 1px;">Syncing live projects from database...</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- EXPERIENCE SECTION -->
+        <section id="experience" class="exp-section pt-section pb-section">
+            <div class="container">
+                <header class="section-header text-center">
+                    <h2 class="section-title">The Journey</h2>
+                </header>
+
+                <div class="timeline">
+                    <!-- Dynamic timeline items generated via JS -->
+                    <div class="timeline-line"></div>
+                    
+                    <div id="experience-loader" style="text-align: center; width: 100%; padding: 2rem 0;">
+                        <div class="btn-loader" style="margin: 0 auto; border-color: var(--accent-primary); width: 40px; height: 40px; border-top-color: transparent; border-radius: 50%; border-style: solid; border-width: 3px; animation: spin 1s linear infinite;"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT SECTION -->
+        <section id="contact" class="contact-section pt-section pb-section">
+            <div class="container contact-container">
+                <div class="contact-text">
+                    <h2 class="conversion-title">Let’s Build Something <br /><span class="text-glow">That
+                            Matters.</span></h2>
+                    <p class="trust-statement">Whether you need help with content management, educational curriculum, or
+                        developing modern web applications, I'm eager to learn and ready to collaborate.</p>
+                    <div class="availability-badge">
+                        <span class="status-dot green-glow"></span> Open to Opportunities
+                    </div>
+
+                    <div class="private-contact">
+                        <div class="blur-reveal-container glass-panel" id="email-reveal-btn">
+                            <i class="ph ph-envelope"></i>
+                            <span class="blurred-text" id="reveal-email-text">sbnpoudl@gmail.com</span>
+                            <div class="reveal-overlay"><i class="ph ph-lock-key"></i> Click to Verify</div>
+                        </div>
+                        <div class="blur-reveal-container glass-panel" id="phone-reveal-btn">
+                            <i class="ph ph-phone"></i>
+                            <span class="blurred-text" id="reveal-phone-text">+977-98********</span>
+                            <div class="reveal-overlay"><i class="ph ph-lock-key"></i> Click to Verify</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form-wrapper glass-panel">
+                    <form id="contact-form" class="modern-form">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" autocomplete="name" required placeholder="John Doe">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" autocomplete="email" required placeholder="john@example.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="idea">Project Idea</label>
+                            <textarea id="idea" name="idea" autocomplete="off" required
+                                placeholder="Tell me about what we are building..."></textarea>
+                        </div>
+                        <button type="submit" class="btn-primary full-width submit-btn" id="submit-btn">
+                            <span class="btn-text-content">Send Transmission</span>
+                            <i class="ph ph-paper-plane-tilt"></i>
+                            <div class="btn-loader hidden"></div>
+                        </button>
+                        <div id="form-message" class="form-message hidden">
+                            <i class="ph ph-check-circle"></i> Message received. I will be in touch.
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- FOOTER -->
+        <footer class="site-footer">
+            <div class="container footer-content">
+                <div class="footer-brand">
+                    <span class="logo-text">SP.</span>
+                    <p class="copyright">&copy; 2026 Sabin Poudel. Designed & Engineered for Performance.</p>
+                </div>
+                <div class="footer-socials">
+                    <a href="#" class="social-link" aria-label="Facebook"><i class="ph ph-facebook-logo"></i></a>
+                    <a href="#" class="social-link" aria-label="GitHub"><i class="ph ph-github-logo"></i></a>
+                    <a href="#" class="social-link" aria-label="LinkedIn"><i class="ph ph-linkedin-logo"></i></a>
+                    <a href="#" class="social-link" aria-label="Twitter"><i class="ph ph-twitter-logo"></i></a>
+                </div>
+            </div>
+        </footer>
+    </main>
+
+    <!-- PROJECT MODAL -->
+    <div id="project-modal" class="fullscreen-modal hidden" aria-hidden="true" role="dialog">
+        <div class="modal-backdrop"></div>
+        <div class="modal-content-container glass-panel-thick">
+            <button class="close-modal-btn" aria-label="Close Project"><i class="ph ph-x"></i></button>
+            <div class="modal-scroll-area">
+                <div class="modal-hero">
+                    <div class="modal-banner-placeholder text-center flex-center">
+                        <h1 id="modal-title-hero" class="text-glow">Project</h1>
+                    </div>
+                </div>
+                <div class="modal-body container">
+                    <div class="modal-header-info">
+                        <h2 id="modal-title" class="modal-title">Project Title</h2>
+                        <div id="modal-tags" class="tech-badges pt-2 pb-4"></div>
+                    </div>
+                    
+                    <div class="modal-grid">
+                        <div class="modal-column glass-panel">
+                            <h3 class="modal-subheading"><i class="ph ph-target"></i> The Problem</h3>
+                            <p id="modal-problem" class="text-muted">Loading...</p>
+                        </div>
+                        <div class="modal-column glass-panel">
+                            <h3 class="modal-subheading"><i class="ph ph-lightbulb"></i> The Solution</h3>
+                            <p id="modal-solution" class="text-muted">Loading...</p>
+                        </div>
+                    </div>
+
+                    <div class="modal-impact pt-4 pb-section">
+                        <h3 class="modal-subheading"><i class="ph ph-chart-line-up"></i> Result & Impact</h3>
+                        <div class="impact-metrics">
+                            <div class="modal-section impact-box">
+                                <p id="modal-impact" class="impact-text text-muted">Loading...</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="modal-action-wrapper" style="margin-top: 1rem; margin-bottom: 2rem; text-align: center;">
+                        <a href="#" target="_blank" rel="noopener noreferrer" id="modal-demo-btn" class="btn-primary" style="display: none; align-items: center; justify-content: center; gap: 0.5rem; max-width: 300px; margin: 0 auto;">
+                            Launch Live Demo <i class="ph ph-arrow-square-out"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- CAPTCHA MODAL -->
+    <div id="captcha-modal" class="fullscreen-modal hidden" aria-hidden="true" role="dialog" style="z-index: 10001;">
+        <div class="modal-backdrop"></div>
+        <div class="glass-panel"
+            style="position: relative; z-index: 2; width: 90%; max-width: 400px; padding: 2.5rem 2rem; text-align: center;">
+            <button class="close-captcha-btn"
+                style="position: absolute; top: 1rem; right: 1.5rem; background: none; border: none; color: var(--text-secondary); cursor: pointer; transition: color 0.3s;">
+                <i class="ph ph-x" style="font-size: 1.5rem;"></i>
+            </button>
+            <i class="ph ph-shield-check"
+                style="font-size: 3rem; color: var(--accent-primary); margin-bottom: 1rem;"></i>
+            <h3 style="margin-bottom: 0.5rem; font-size: 1.5rem;">Human Verification</h3>
+            <p style="color: var(--text-secondary); margin-bottom: 1.5rem;" id="captcha-question">Security Check: ...
+            </p>
+            <input type="number" id="captcha-input"
+                style="width: 100%; padding: 1rem; border-radius: 12px; border: 1px solid var(--border-subtle); background: rgba(0,0,0,0.3); color: white; margin-bottom: 1rem; outline: none; transition: border-color 0.3s;"
+                placeholder="Enter your answer...">
+            <button id="captcha-submit" class="btn-primary full-width">Verify</button>
+            <p id="captcha-error"
+                style="color: #ef4444; margin-top: 1rem; padding: 0.5rem; background: rgba(239, 68, 68, 0.1); border-radius: 8px; font-size: 0.9rem;"
+                class="hidden">Incorrect answer. Please try again.</p>
+        </div>
+    </div>
+
+    <!-- GSAP / Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="js/animations.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

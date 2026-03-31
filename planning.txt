@@ -1,0 +1,284 @@
+🧠 PROJECT IDENTITY
+
+Create a cinematic premium personal portfolio website for:
+
+Sabin Poudel — Full Stack Developer & Automation Engineer
+
+The website must feel like:
+
+Apple developer showcase
+Modern startup landing page
+Creative engineer portfolio
+Interactive digital experience
+
+NOT a template.
+NOT a resume website.
+NOT a typical portfolio.
+
+It should feel like a product launch experience.
+
+🌌 1️⃣ ENTRY EXPERIENCE (VERY IMPORTANT)
+When website loads:
+
+Show a fullscreen dark background with:
+
+animated stars / particles / subtle galaxy motion
+slow parallax movement
+minimal ambient animation
+
+Center text:
+
+Sabin Poudel
+
+Typography:
+
+Elegant
+Wide letter spacing
+Smooth fade glow animation
+Background concept:
+developer universe
+innovation space
+calm futuristic feel
+Entry Animation Sequence
+
+Step 1 — 0s
+
+Black screen
+Stars slowly appear
+
+Step 2 — 1s
+
+Name fades in
+soft glow animation
+
+Step 3 — Backend Loading
+Simultaneously:
+
+preload assets
+initialize Google Apps Script API
+fetch dynamic content
+prepare animations
+
+(show subtle loading line below name)
+
+Step 4 — Transition
+
+Stars zoom slightly → transform into website background.
+
+NO hard page change.
+
+It must feel like entering a digital world.
+
+🧭 2️⃣ HERO SECTION (FIRST IMPRESSION)
+
+After entry transition:
+
+Left side:
+
+Hello, I'm Sabin Poudel
+Full Stack Developer
+Building systems that work while you sleep.
+
+Right side:
+
+floating glass card
+profile image
+soft shadow
+slight hover movement
+
+Background:
+
+gradient + subtle animated particles
+Hero Effects
+
+✅ typing animation roles:
+
+Full Stack Developer
+React & Node.js Engineer
+Automation Specialist
+Problem Solver
+
+✅ cursor glow following mouse (very subtle)
+
+👤 3️⃣ ABOUT SECTION — STORY STYLE
+
+Not resume text.
+
+Design like storytelling:
+
+Sections appear one by one while scrolling:
+
+Who I Am
+What I Build
+Why Clients Trust Me
+
+Include timeline animation.
+
+🧠 4️⃣ SKILLS SECTION — INTERACTIVE
+
+NOT bullet points.
+
+Create:
+
+Skill Galaxy / Tech Orbit
+
+Skills orbit slowly around center:
+
+Core:
+
+Full Stack Development
+
+Orbit skills:
+
+React
+Node.js
+JavaScript
+HTML
+CSS
+PHP
+Google Apps Script
+UI Design
+Automation Systems
+
+Hover → glow + description popup.
+
+🚀 5️⃣ PROJECT SHOWCASE (MOST IMPORTANT)
+
+Projects should feel like products, not cards.
+
+Each project:
+
+large preview
+hover cinematic zoom
+gradient overlay
+tech stack badges
+“View Case Study” button
+
+Click → fullscreen modal:
+
+Include:
+
+problem
+solution
+technologies
+result impact
+⚡ 6️⃣ EXPERIENCE SECTION
+
+Animated timeline:
+
+Content Manager → STEM Teacher → Full Stack Developer
+
+Scroll-triggered reveal.
+
+💬 7️⃣ CLIENT CONVERSION SECTION
+
+Headline:
+
+Let’s Build Something That Matters.
+
+Add:
+
+short trust statement
+availability indicator (🟢 Available for Projects)
+📩 8️⃣ CONTACT SECTION (BACKEND CONNECTED)
+
+Modern glass form:
+
+Fields:
+
+Name
+Email
+Project Idea
+
+Submission:
+
+→ Google Apps Script backend
+→ Store in Google Sheets
+→ Success animation (not alert box)
+
+🌙 9️⃣ GLOBAL EXPERIENCE FEATURES
+
+Must include:
+
+✅ Dark / Light mode
+✅ Smooth scrolling
+✅ Scroll reveal animations
+✅ Micro-interactions everywhere
+✅ Cursor feedback effects
+✅ Performance optimized
+✅ Mobile-first responsive
+
+🎨 DESIGN LANGUAGE
+
+Color Feel:
+
+Primary: Deep Space Dark (#020617)
+Accent: Emerald Green (#22C55E)
+Secondary: Soft Blue Glow
+
+Style:
+
+glassmorphism
+soft shadows
+breathing animations
+minimal but alive
+🧱 TECH STACK REQUIREMENT
+
+Frontend:
+
+HTML5
+CSS3 (custom, no heavy frameworks)
+Vanilla JavaScript
+
+Animations:
+
+GSAP or custom JS animations
+
+Backend:
+
+Google Apps Script
+
+Data:
+
+Google Sheets CMS
+
+Hosting:
+
+Cloudflare Pages
+🧩 PERFORMANCE RULES
+
+Website must:
+
+load under 2 seconds
+avoid heavy libraries
+lazy-load images
+preload hero assets
+smooth 60fps animations
+🧠 PSYCHOLOGY GOAL
+
+Visitor should think:
+
+“This developer understands design, systems, and user experience.”
+
+NOT:
+
+“This looks like an AI portfolio.”
+
+⭐ FINAL EXPERIENCE FLOW
+Stars Entry
+   ↓
+Name Reveal
+   ↓
+Universe Transition
+   ↓
+Hero Impact
+   ↓
+Storytelling About
+   ↓
+Interactive Skills
+   ↓
+Product-Level Projects
+   ↓
+Trust Section
+   ↓
+Contact Conversion
