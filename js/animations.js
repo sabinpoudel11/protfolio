@@ -118,7 +118,7 @@ document.addEventListener('DOMContentLoaded', () => {
         
         // --- HERO TYPING ---
         const typingText = document.getElementById("typing-text");
-        const words = ["Full Stack Developer", "React & Node.js Engineer", "Automation Specialist", "Problem Solver"];
+        const words = ["Full Stack Developer", "React & Node.js ", "Automation ", "Problem Solver"];
         let count = 0;
         let index = 0;
         let currentText = "";
